@@ -1,0 +1,55 @@
+.card-container {
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+    perspective: 1000px; /*the number of pixels 3d element is placed from view*/
+    position: relative;
+    margin: auto;
+    transition:ease-in;
+    margin-top: 5%;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    background-color: rgb(243, 241, 240);
+    border-radius: 20px 20px;
+    transform-style: preserve-3d;/*this will preserve the child element's position in 3d space (or the card front and back) */
+    transition: all 0.4s ease-in-out;
+    color: #777777;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+.card:hover {
+    transform: rotateY(180deg);/*allows the rotation of the card on the y axis*/
+    transition: all 0.4s ease-in-out;
+}
+
+.card .front {
+    height: 200px;
+    width: 300px;
+    backface-visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 35%;
+}
+
+.card .back {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    transform: rotateY(180deg);/*makes the back flip on the y axis so that it doesn't look backwards*/
+    padding-top: 45%;
+
+}
+
+.title {
+    font-size: 150px;
+   
+}
+.subtitle {
+    font-size: 80px;
+
+}

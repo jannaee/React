@@ -1,0 +1,38 @@
+{
+    "cards":[
+        {
+            "num": 0,
+            "numstring": "Zero" 
+        },{
+            "num":1,
+            "numstring": "One" 
+        },{
+            "num":2,
+            "numstring": "Two" 
+        },{
+            "num":3,
+            "numstring": "Three" 
+        },{
+            "num":4,
+            "numstring": "Four" 
+        },{
+            "num":5,
+            "numstring": "Five" 
+        },{
+            "num":6,
+            "numstring": "Six" 
+        },{
+            "num":7,
+            "numstring": "Seven" 
+        },{
+            "num":8,
+            "numstring": "Eight" 
+        },{
+            "num":9,
+            "numstring": "Nine" 
+        },{
+            "num":10,
+            "numstring": "Ten" 
+        }
+    ]
+}

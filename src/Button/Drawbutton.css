@@ -1,0 +1,22 @@
+.btn {
+    background-color: #65ab00;
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 80px;
+    width: 200px;
+    height: 60px;
+    display: block;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.btn:active{
+    border: none;
+    position: relative;
+
+}

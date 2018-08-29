@@ -1,0 +1,21 @@
+.cardRow{
+  display: block;
+  padding: 5px;
+}
+
+.btnRow{
+  display: block;
+  padding: 5px;
+}
+
+body {
+  background-color: #32cdff;
+}
+
+.gameHeader {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5em;
+  line-height: .75em;
+  margin-top: 80px;
+}
